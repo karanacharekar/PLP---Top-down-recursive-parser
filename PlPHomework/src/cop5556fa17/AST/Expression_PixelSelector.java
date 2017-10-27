@@ -23,6 +23,7 @@ public class Expression_PixelSelector extends Expression {
 		this.index = index;
 	}
 
+	
 	@Override
 	public Object visit(ASTVisitor v, Object arg) throws Exception {
 		return v.visitExpression_PixelSelector(this,arg);

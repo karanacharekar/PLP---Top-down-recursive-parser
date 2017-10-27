@@ -52,10 +52,12 @@
 package cop5556fa17.AST;
 
 import cop5556fa17.Scanner.Token;
+import cop5556fa17.TypeUtils.Type;
 
 public class Expression_Ident extends Expression {
 	
 	public final String name;
+	public Type Type;
 	
 	
 

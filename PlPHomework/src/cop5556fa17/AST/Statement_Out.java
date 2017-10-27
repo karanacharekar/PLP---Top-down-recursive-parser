@@ -8,6 +8,7 @@ public class Statement_Out extends Statement {
 	public final Sink sink;
 	
 	Declaration dec;  //declaration for name.  Set during type checking
+	//public Declaration declaration;
 	public void setDec(Declaration dec) {this.dec = dec;}
 	public Declaration getDec() {return dec;}
 	

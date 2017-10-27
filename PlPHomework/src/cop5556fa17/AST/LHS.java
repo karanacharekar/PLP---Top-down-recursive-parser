@@ -1,12 +1,15 @@
 package cop5556fa17.AST;
 
 import cop5556fa17.Scanner.Token;
+import cop5556fa17.TypeUtils.Type;
 
 public class LHS extends ASTNode{
 
 	public final String name;
 	public final Index index;
-
+	public Declaration declaration;
+	public Type Type;
+	public boolean isCartesian;
 
 
 	public LHS(Token firstToken, Token name, Index index) {
@@ -62,7 +65,4 @@ public class LHS extends ASTNode{
 		return builder.toString();
 	}
 
-
-	
-	
 }

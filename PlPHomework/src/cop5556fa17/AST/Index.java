@@ -9,7 +9,7 @@ public class Index extends ASTNode {
 	public final Expression e0;
 	public final Expression e1;
 	
-	boolean isCartesian;
+	public boolean isCartesian;
 	
 	public Index(Token firstToken, Expression e0, Expression e1) {
 		super(firstToken);
